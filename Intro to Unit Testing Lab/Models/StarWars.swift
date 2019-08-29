@@ -10,10 +10,10 @@ import Foundation
 
 struct StarWars: Codable {
     
-    static func getStarWarsFromData(from data: Data) -> StarWars {
+    static func getStarWarsFromData(from data: Data) -> [StarWars] {
         do {
-            let starWarsFilm = try JSONDecoder().decode(StarWars.self, from: data)
-            return starWarsFilm
+            let starWarsFilms = try JSONDecoder().decode([StarWars].self, from: data)
+            return starWarsFilms
         } catch let decodeError {
             fatalError("Could not decode data: \(decodeError)")
         }

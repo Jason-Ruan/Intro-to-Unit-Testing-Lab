@@ -19,6 +19,12 @@ class Intro_to_Unit_Testing_LabTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     
+    func testForJokeBlob() {
+        let data = getDataFromJSON(jsonFileName: "joke")
+        let jokes = Joke.getJokesFromData(from: data)
+        XCTAssertTrue(jokes[0].setup != nil && jokes[0].punchline != nil)
+    }
+    
     private func getDataFromJSON(jsonFileName: String) -> Data {
         guard let pathFromJokeJSON = Bundle.main.path(forResource: jsonFileName, ofType: "json") else { fatalError("Could not find a json file with that name") }
         let url = URL(fileURLWithPath: pathFromJokeJSON)

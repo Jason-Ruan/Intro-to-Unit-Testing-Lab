@@ -25,6 +25,12 @@
 		08B79D2A23185365000C0C59 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B79D2923185365000C0C59 /* Joke.swift */; };
 		08B79D2C2318536E000C0C59 /* StarWars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B79D2B2318536E000C0C59 /* StarWars.swift */; };
 		08B79D2E23185378000C0C59 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B79D2D23185378000C0C59 /* Trivia.swift */; };
+		08B79D3023187C49000C0C59 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B79D2923185365000C0C59 /* Joke.swift */; };
+		08B79D3123187C4B000C0C59 /* StarWars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B79D2B2318536E000C0C59 /* StarWars.swift */; };
+		08B79D3223187C4E000C0C59 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B79D2D23185378000C0C59 /* Trivia.swift */; };
+		08B79D3323187C5A000C0C59 /* joke.json in Resources */ = {isa = PBXBuildFile; fileRef = 0811BAF923185111007B87B2 /* joke.json */; };
+		08B79D3423187C5D000C0C59 /* starWars.json in Resources */ = {isa = PBXBuildFile; fileRef = 0811BAF723185111007B87B2 /* starWars.json */; };
+		08B79D3523187C5F000C0C59 /* trivia.json in Resources */ = {isa = PBXBuildFile; fileRef = 0811BAF823185111007B87B2 /* trivia.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -250,6 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08B79D3423187C5D000C0C59 /* starWars.json in Resources */,
+				08B79D3323187C5A000C0C59 /* joke.json in Resources */,
+				08B79D3523187C5F000C0C59 /* trivia.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +287,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08B79D3023187C49000C0C59 /* Joke.swift in Sources */,
+				08B79D3123187C4B000C0C59 /* StarWars.swift in Sources */,
+				08B79D3223187C4E000C0C59 /* Trivia.swift in Sources */,
 				0811BADE23184BE4007B87B2 /* Intro_to_Unit_Testing_LabTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
