@@ -19,6 +19,9 @@
 		0811BAF123184EB4007B87B2 /* JokesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0811BAF023184EB4007B87B2 /* JokesDetailViewController.swift */; };
 		0811BAF323184EC1007B87B2 /* StarWarsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0811BAF223184EC1007B87B2 /* StarWarsDetailViewController.swift */; };
 		0811BAF523184ECB007B87B2 /* TriviaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0811BAF423184ECB007B87B2 /* TriviaDetailViewController.swift */; };
+		0811BAFA23185111007B87B2 /* starWars.json in Resources */ = {isa = PBXBuildFile; fileRef = 0811BAF723185111007B87B2 /* starWars.json */; };
+		0811BAFB23185111007B87B2 /* trivia.json in Resources */ = {isa = PBXBuildFile; fileRef = 0811BAF823185111007B87B2 /* trivia.json */; };
+		0811BAFC23185111007B87B2 /* joke.json in Resources */ = {isa = PBXBuildFile; fileRef = 0811BAF923185111007B87B2 /* joke.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		0811BAF023184EB4007B87B2 /* JokesDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesDetailViewController.swift; sourceTree = "<group>"; };
 		0811BAF223184EC1007B87B2 /* StarWarsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsDetailViewController.swift; sourceTree = "<group>"; };
 		0811BAF423184ECB007B87B2 /* TriviaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaDetailViewController.swift; sourceTree = "<group>"; };
+		0811BAF723185111007B87B2 /* starWars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = starWars.json; path = "Intro to Unit Testing Lab/JSON files/starWars.json"; sourceTree = SOURCE_ROOT; };
+		0811BAF823185111007B87B2 /* trivia.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = trivia.json; path = "Intro to Unit Testing Lab/JSON files/trivia.json"; sourceTree = SOURCE_ROOT; };
+		0811BAF923185111007B87B2 /* joke.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = joke.json; path = "Intro to Unit Testing Lab/JSON files/joke.json"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 				0811BACF23184BE4007B87B2 /* Assets.xcassets */,
 				0811BAD123184BE4007B87B2 /* LaunchScreen.storyboard */,
 				0811BAD423184BE4007B87B2 /* Info.plist */,
+				0811BAF923185111007B87B2 /* joke.json */,
+				0811BAF723185111007B87B2 /* starWars.json */,
+				0811BAF823185111007B87B2 /* trivia.json */,
 			);
 			path = "Intro to Unit Testing Lab";
 			sourceTree = "<group>";
@@ -211,8 +220,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0811BAFC23185111007B87B2 /* joke.json in Resources */,
+				0811BAFA23185111007B87B2 /* starWars.json in Resources */,
 				0811BAD323184BE4007B87B2 /* LaunchScreen.storyboard in Resources */,
 				0811BAD023184BE4007B87B2 /* Assets.xcassets in Resources */,
+				0811BAFB23185111007B87B2 /* trivia.json in Resources */,
 				0811BACE23184BE1007B87B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

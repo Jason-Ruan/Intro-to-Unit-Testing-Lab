@@ -1,0 +1,119 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Entertainment%3A%20Books",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What%20was%20the%20name%20of%20the%20Mysterious%20Island%2C%20in%20Jules%20Verne%27s%20%22The%20Mysterious%20Island%22%3F",
+            "correct_answer": "Lincoln%20Island",
+            "incorrect_answers": [
+                "Vulcania%20Island",
+                "Prometheus%20Island",
+                "Neptune%20Island"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Video%20Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "The%20original%20mascot%20of%20the%20popular%20Nintendo%20game%2C%20%22Splatoon%22%20was%20going%20to%20be...",
+            "correct_answer": "Mario",
+            "incorrect_answers": [
+                "Inklings",
+                "Octolings",
+                "Zelda"
+            ]
+        },
+        {
+            "category": "Vehicles",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which%20of%20the%20following%20passenger%20jets%20is%20the%20longest%3F",
+            "correct_answer": "Boeing%20747-8",
+            "incorrect_answers": [
+                "Airbus%20A350-1000",
+                "Airbus%20A330-200",
+                "Boeing%20787-10"
+            ]
+        },
+        {
+            "category": "Science%3A%20Mathematics",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "The%20proof%20for%20the%20Chinese%20Remainder%20Theorem%20used%20in%20Number%20Theory%20was%20NOT%20developed%20by%20its%20first%20publisher%2C%20Sun%20Tzu.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "boolean",
+            "difficulty": "medium",
+            "question": "In%201967%2C%20a%20magazine%20published%20a%20story%20about%20extracting%20hallucinogenic%20chemicals%20from%20bananas%20to%20raise%20moral%20questions%20about%20banning%20drugs.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Mythology",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which%20Greek%20%26%20Roman%20god%20was%20known%20as%20the%20god%20of%20music%2C%20truth%20and%20prophecy%2C%20healing%2C%20the%20sun%20and%20light%2C%20plague%2C%20poetry%2C%20and%20more%3F",
+            "correct_answer": "Apollo",
+            "incorrect_answers": [
+                "Aphrodite",
+                "Artemis",
+                "Athena"
+            ]
+        },
+        {
+            "category": "History",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What%20was%20Genghis%20Khan%27s%20real%20name%3F",
+            "correct_answer": "Tem%C3%BCjin",
+            "incorrect_answers": [
+                "M%C3%B6ngke",
+                "%C3%96gedei",
+                "Tem%C3%BCr"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Japanese%20Anime%20%26%20Manga",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In%20%22To%20Love-Ru%3A%20Darkness%22%2C%20which%20of%20the%20girls%20attempt%20making%20a%20harem%20for%20Rito%20Yuuki%3F",
+            "correct_answer": "Momo%20Deviluke",
+            "incorrect_answers": [
+                "Yami%20%28Golden%20Darkness%29",
+                "Haruna%20Sairenji",
+                "Mea%20Kurosaki"
+            ]
+        },
+        {
+            "category": "Geography",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Which%20of%20the%20following%20countries%20has%20a%20flag%20featuring%20a%20yellow%20lion%20wielding%20a%20sword%20on%20a%20dark%20red%20background%3F",
+            "correct_answer": "Sri%20Lanka",
+            "incorrect_answers": [
+                "Kiribati",
+                "Scotland",
+                "Bhutan"
+            ]
+        },
+        {
+            "category": "Science%3A%20Mathematics",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "An%20isosceles%20triangle%20has%20two%20sides%20of%20equal%20length%20as%20opposed%20to%20three.",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        }
+    ]
+}
