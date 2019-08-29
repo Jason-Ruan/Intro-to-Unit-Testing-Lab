@@ -8,6 +8,15 @@
 
 import Foundation
 
-struct Joke {
+struct Joke: Codable {
     
+    
+    static func getJokeFromData(from data: Data) -> Joke {
+        do {
+            let jokeFunny = try JSONDecoder().decode(Joke.self, from: data)
+            return jokeFunny
+        } catch let decodeError {
+            fatalError("Could not decode data: \(decodeError)")
+        }
+    }
 }

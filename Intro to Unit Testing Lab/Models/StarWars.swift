@@ -8,6 +8,14 @@
 
 import Foundation
 
-struct StarWars {
+struct StarWars: Codable {
     
+    static func getStarWarsFromData(from data: Data) -> StarWars {
+        do {
+            let starWarsFilm = try JSONDecoder().decode(StarWars.self, from: data)
+            return starWarsFilm
+        } catch let decodeError {
+            fatalError("Could not decode data: \(decodeError)")
+        }
+    }
 }

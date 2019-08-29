@@ -19,7 +19,7 @@ class Intro_to_Unit_Testing_LabTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
     
-    func getDataFromJSON(jsonFileName: String) -> Data {
+    private func getDataFromJSON(jsonFileName: String) -> Data {
         guard let pathFromJokeJSON = Bundle.main.path(forResource: jsonFileName, ofType: "json") else { fatalError("Could not find a json file with that name") }
         let url = URL(fileURLWithPath: pathFromJokeJSON)
         do {
@@ -29,4 +29,5 @@ class Intro_to_Unit_Testing_LabTests: XCTestCase {
             fatalError("Could not get data from url: \(jsonError)")
         }
     }
+    
 }
