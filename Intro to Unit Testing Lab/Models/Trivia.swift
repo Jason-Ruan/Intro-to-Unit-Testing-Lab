@@ -10,12 +10,13 @@ import Foundation
 
 struct Trivia: Codable {
     
-    static func getTriviaFromData(from data: Data) -> [Trivia] {
+    static func getTriviaFromData(from data: Data) -> [Trivia]? {
         do {
             let triviaFacts = try JSONDecoder().decode([Trivia].self, from: data)
             return triviaFacts
         } catch let decodeError {
-            fatalError("Could not decode data: \(decodeError)")
+            print(decodeError)
+            return nil
         }
     }
 }

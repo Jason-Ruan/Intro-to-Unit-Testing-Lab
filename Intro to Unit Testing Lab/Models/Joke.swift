@@ -9,15 +9,16 @@
 import Foundation
 
 struct Joke: Codable {
-    var setup: String
-    var punchline: String
+    let setup: String
+    let punchline: String
     
-    static func getJokesFromData(from data: Data) -> [Joke] {
+    static func getJokesFromData(from data: Data) -> [Joke]? {
         do {
             let jokes = try JSONDecoder().decode([Joke].self, from: data)
             return jokes
         } catch let decodeError {
-            fatalError("Could not decode data: \(decodeError)")
+            print(decodeError)
+            return nil
         }
     }
 }

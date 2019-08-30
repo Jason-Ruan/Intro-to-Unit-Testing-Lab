@@ -22,7 +22,19 @@ class Intro_to_Unit_Testing_LabTests: XCTestCase {
     func testForJokeBlob() {
         let data = getDataFromJSON(jsonFileName: "joke")
         let jokes = Joke.getJokesFromData(from: data)
-        XCTAssertTrue(jokes[0].setup != nil && jokes[0].punchline != nil)
+        XCTAssertTrue(jokes != nil)
+    }
+    
+    func testForStarWarsBlob() {
+        let data = getDataFromJSON(jsonFileName: "starWars")
+        let starWars = StarWars.getStarWarsFromData(from: data)
+        XCTAssertTrue(starWars != nil)
+    }
+    
+    func testForTriviaBlob() {
+        let data = getDataFromJSON(jsonFileName: "trivia")
+        let triviaFacts = Trivia.getTriviaFromData(from: data)
+        XCTAssertTrue(triviaFacts != nil)
     }
     
     private func getDataFromJSON(jsonFileName: String) -> Data {

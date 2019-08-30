@@ -9,13 +9,20 @@
 import Foundation
 
 struct StarWars: Codable {
+    let count: Int
+    let results: [ResultsWrapper]
     
-    static func getStarWarsFromData(from data: Data) -> [StarWars] {
+    static func getStarWarsFromData(from data: Data) -> [StarWars]? {
         do {
             let starWarsFilms = try JSONDecoder().decode([StarWars].self, from: data)
             return starWarsFilms
         } catch let decodeError {
-            fatalError("Could not decode data: \(decodeError)")
+            print(decodeError)
+            return nil
         }
     }
+}
+
+struct ResultsWrapper: Codable {
+    
 }
